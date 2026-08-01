@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/nacre-work/brand/main/logo/png/nacre-lockup-h-dark-1024.png">
-    <img src="https://raw.githubusercontent.com/nacre-work/brand/main/logo/png/nacre-lockup-h-1024.png" width="260" alt="Nacre">
+            srcset="https://raw.githubusercontent.com/nacre-work/.github/main/profile/assets/nacre-lockup-h-dark-1024.png">
+    <img src="https://raw.githubusercontent.com/nacre-work/.github/main/profile/assets/nacre-lockup-h-1024.png" width="260" alt="Nacre">
   </picture>
 
   <p><strong>Strength from layers</strong></p>
@@ -15,7 +15,7 @@
   <p>
     <a href="https://nacre.work">nacre.work</a> ·
     <a href="https://github.com/nacre-work/nacre">Core</a> ·
-    <a href="https://github.com/nacre-work/nacre/blob/main/docs/quickstart.md">Quickstart</a> ·
+    <a href="https://github.com/nacre-work/nacre#quickstart">Quickstart</a> ·
     <a href="https://github.com/nacre-work/nacre/discussions">Discussions</a>
   </p>
 </div>
@@ -105,8 +105,10 @@ notice in mid-2026, we think this one needs no further argument.
 | | Contents |
 |---|---|
 | **[nacre](https://github.com/nacre-work/nacre)** | Core: API, MCP server, indexing, search, permissions. Apache 2.0 |
-| **[brand](https://github.com/nacre-work/brand)** | Mark, palette, tokens, design system |
-| **nacre-web** | Website and documentation |
+| **[nacre-web](https://github.com/nacre-work/nacre-web)** | Website and documentation |
+
+Logos, palette, and tokens ship with the site, under
+[`nacre-web/public/brand/`](https://github.com/nacre-work/nacre-web/tree/main/public/brand).
 
 ## Contributing
 
