@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/nacre-work/brand/main/logo/png/nacre-lockup-h-dark-1024.png">
-    <img src="https://raw.githubusercontent.com/nacre-work/brand/main/logo/png/nacre-lockup-h-1024.png" width="260" alt="Nacre">
+            srcset="https://raw.githubusercontent.com/nacre-work/.github/main/profile/assets/nacre-lockup-h-dark-1024.png">
+    <img src="https://raw.githubusercontent.com/nacre-work/.github/main/profile/assets/nacre-lockup-h-1024.png" width="260" alt="Nacre">
   </picture>
 
   <p><strong>Strength from layers</strong></p>
