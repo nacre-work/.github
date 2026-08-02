@@ -107,8 +107,14 @@ notice in mid-2026, we think this one needs no further argument.
 | **[nacre](https://github.com/nacre-work/nacre)** | Core: API, MCP server, indexing, search, permissions. Apache 2.0 |
 | **[nacre-web](https://github.com/nacre-work/nacre-web)** | Website and documentation |
 
-Logos, palette, and tokens ship with the site, under
-[`nacre-web/public/brand/`](https://github.com/nacre-work/nacre-web/tree/main/public/brand).
+The design tokens are Apache 2.0 and reusable — [`tokens.css`](https://github.com/nacre-work/nacre-web/blob/main/public/brand/tokens.css),
+served with the site. The typefaces beside them are third-party faces under the
+SIL Open Font License and are not ours to relicense. **The Nacre name and mark
+are trademarks**: referring to the project with them is fine, shipping a fork
+under them is not — [TRADEMARK.md](https://github.com/nacre-work/nacre/blob/main/TRADEMARK.md).
+
+That directory is a mirror and not the source. Changing a colour there is lost
+on the next sync; open an issue instead.
 
 ## Contributing
 
