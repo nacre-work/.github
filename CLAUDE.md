@@ -12,9 +12,15 @@ ISSUE_TEMPLATE/            default templates
 ## Two rules, both learned the hard way
 
 **No links to private repositories.** This page is public; `brand`,
-`nacre-infra`, and `nacre-enterprise` are not. A link to one renders as a 404
-for every visitor who is not in the organization, and the profile is the first
-page anyone sees. Link only `nacre` and `nacre-web`.
+`nacre-web`, `nacre-infra`, and `nacre-enterprise` are not. A link to one
+renders as a 404 for every visitor who is not in the organization, and the
+profile is the first page anyone sees. **Link only `nacre`** — it is the only
+public repository left.
+
+`nacre-web` was public until it was not. Anything the profile needs from the
+website links to `nacre.work` itself rather than to the repository behind it:
+the served file is public whatever the repository is, and it is the canonical
+location anyway.
 
 **Check that a link resolves before adding it.** The Quickstart link pointed at
 `nacre/docs/quickstart.md` from the initial commit; the file did not exist for

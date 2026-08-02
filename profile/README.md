@@ -105,16 +105,18 @@ notice in mid-2026, we think this one needs no further argument.
 | | Contents |
 |---|---|
 | **[nacre](https://github.com/nacre-work/nacre)** | Core: API, MCP server, indexing, search, permissions. Apache 2.0 |
-| **[nacre-web](https://github.com/nacre-work/nacre-web)** | Website and documentation |
 
-The design tokens are Apache 2.0 and reusable — [`tokens.css`](https://github.com/nacre-work/nacre-web/blob/main/public/brand/tokens.css),
-served with the site. The typefaces beside them are third-party faces under the
-SIL Open Font License and are not ours to relicense. **The Nacre name and mark
-are trademarks**: referring to the project with them is fine, shipping a fork
-under them is not — [TRADEMARK.md](https://github.com/nacre-work/nacre/blob/main/TRADEMARK.md).
+The core is the whole of the open source. The website, the brand, the
+infrastructure and the commercial modules are separate and closed, and are not
+linked from here — a link to a private repository is a 404 for everyone outside
+the organization, which is a poor first thing to hand a visitor.
 
-That directory is a mirror and not the source. Changing a colour there is lost
-on the next sync; open an issue instead.
+The design tokens are Apache 2.0 and reusable, served straight from the site at
+[nacre.work/brand/tokens.css](https://nacre.work/brand/tokens.css). The
+typefaces beside them are third-party faces under the SIL Open Font License and
+are not ours to relicense. **The Nacre name and mark are trademarks**: referring
+to the project with them is fine, shipping a fork under them is not —
+[TRADEMARK.md](https://github.com/nacre-work/nacre/blob/main/TRADEMARK.md).
 
 ## Contributing
 
