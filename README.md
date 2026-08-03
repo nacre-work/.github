@@ -5,12 +5,19 @@ Organization profile and templates shared across repositories.
 ```
 profile/README.md          what shows on github.com/nacre-work
 profile/assets/            logos the profile page loads
-ISSUE_TEMPLATE/            default templates
+ISSUE_TEMPLATE/config.yml  shared issue-creation config, no forms
 ```
 
 A repository named `.github` is special: GitHub renders `profile/README.md`
-as the organization's front page, and repositories without their own copies
-inherit the templates from here.
+as the organization's front page, and repositories without their own
+`ISSUE_TEMPLATE/` inherit `config.yml` from here.
+
+`config.yml` carries no issue forms — only `blank_issues_enabled: false` and the
+two contact links (report a vulnerability privately, ask in Discussions). A
+repository that wants a bug form ships its own, as `nacre` does; a repository
+that inherits only this and adds no form of its own routes every would-be issue
+to those links, which is the intended default for a repository that is not
+`nacre`.
 
 ## Why the logos live here
 
