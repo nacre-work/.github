@@ -6,7 +6,7 @@ Public.
 ```
 profile/README.md          what renders at github.com/nacre-work
 profile/assets/            logos the profile page loads
-ISSUE_TEMPLATE/            default templates
+ISSUE_TEMPLATE/config.yml  shared issue config — no forms, contact links only
 ```
 
 ## Two rules, both learned the hard way
