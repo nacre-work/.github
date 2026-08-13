@@ -126,3 +126,28 @@ conservative there on purpose.
 
 Found an access-control problem? Don't open a public issue —
 [SECURITY.md](https://github.com/nacre-work/nacre/blob/main/SECURITY.md).
+
+## Who is behind this, and how to support it
+
+Nacre and `nacre.work` belong to **I/E Siarhei Dudko**.
+
+The core is Apache 2.0 and self-hosted. There is no hosted tier, no seat count
+and nothing metered — running it costs us nothing and tells us nothing, which is
+the same property the product is sold on. The commercial modules are what fund
+the work, and they are for organizations that need multi-tenancy, SSO or SIEM
+forwarding; a developer running this on a laptop is never the person being
+asked.
+
+If it saved you a week, there is a Sponsor button on
+[nacre](https://github.com/nacre-work/nacre), or:
+
+<a href="https://wise.com/pay/business/siarheidudko">
+  <img src="https://raw.githubusercontent.com/nacre-work/.github/main/profile/assets/FUNDING_WISE.JPG" width="200" alt="Wise payment code for I/E Siarhei Dudko">
+</a>
+
+[wise.com/pay/business/siarheidudko](https://wise.com/pay/business/siarheidudko)
+· [dudko.dev/donate](https://dudko.dev/donate)
+· [paypal.me/dudkodev](https://paypal.me/dudkodev)
+· [buymeacoffee.com/dudko.dev](https://www.buymeacoffee.com/dudko.dev)
+
+Nothing in the open repository is behind any of it, and nothing will be.
