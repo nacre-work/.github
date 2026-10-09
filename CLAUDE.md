@@ -14,8 +14,9 @@ ISSUE_TEMPLATE/config.yml  shared issue config — no forms, contact links only
 **No links to private repositories.** This page is public; `brand`,
 `nacre-web`, `nacre-infra`, and `nacre-enterprise` are not. A link to one
 renders as a 404 for every visitor who is not in the organization, and the
-profile is the first page anyone sees. **Link only `nacre`** — it is the only
-public repository left.
+profile is the first page anyone sees. **Link only `nacre` and `connectors`**
+— they are the public repositories, and the second arrived after this rule was
+written naming one. Check with the command below before adding a third.
 
 `nacre-web` was public until it was not. Anything the profile needs from the
 website links to `nacre.work` itself rather than to the repository behind it:
