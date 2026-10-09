@@ -105,8 +105,9 @@ notice in mid-2026, we think this one needs no further argument.
 | | Contents |
 |---|---|
 | **[nacre](https://github.com/nacre-work/nacre)** | Core: API, MCP server, indexing, search, permissions. Apache 2.0 |
+| **[connectors](https://github.com/nacre-work/connectors)** | Reference connectors that keep a source in sync with an index — git and S3, with SQL, Google Drive, MongoDB and IMAP following. One container per source. Apache 2.0 |
 
-The core is the whole of the open source. The website, the brand, the
+Those two are the whole of the open source. The website, the brand, the
 infrastructure and the commercial modules are separate and closed, and are not
 linked from here — a link to a private repository is a 404 for everyone outside
 the organization, which is a poor first thing to hand a visitor.
